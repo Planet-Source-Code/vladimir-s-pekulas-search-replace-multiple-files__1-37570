@@ -1,0 +1,143 @@
+[Root]
+Most Recent Package=SAR
+
+
+[Package|SAR|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\SAR_INSTALL
+
+[Package|SAR|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SAR|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SAR|Files Found]
+
+[Package|SAR|Files Released]
+sar.CHI=
+3=
+
+[Package|SAR|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\Comdlg32.ocx=
+C:\TreeView\ccrpftv6.ocx=
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=
+
+[Package|SAR|Out-of-Date Dependency Information]
+
+[Package|SAR|Files Added]
+c:\documents and settings\administrator\desktop\search_and_replace\ext.dat=
+c:\documents and settings\administrator\desktop\search_and_replace\path.dat=
+c:\documents and settings\administrator\desktop\search_and_replace\repl.dat=
+c:\documents and settings\administrator\desktop\search_and_replace\srch.dat=
+c:\documents and settings\administrator\desktop\search_and_replace\custom.ini=
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\favorites.dat=
+
+[Package|SAR|Files Removed]
+
+[Package|SAR|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\Search_and_Replace.exe=Yes
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM32\comcat.dll=Yes
+C:\WINDOWS\SYSTEM32\hhctrl.ocx=Yes
+C:\WINDOWS\SYSTEM32\itss.dll=Yes
+C:\WINDOWS\SYSTEM32\itircl.dll=Yes
+C:\WINDOWS\SYSTEM32\hh.exe=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=Yes
+C:\TreeView\ccrpftv6.ocx=Yes
+C:\WINDOWS\SYSTEM32\Comdlg32.ocx=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\hlp\sar.chm=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\ext.dat=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\path.dat=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\repl.dat=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\srch.dat=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\custom.ini=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\favorites.dat=Yes
+
+[Package|SAR|Configure Registry Files]
+Applicable=No
+
+[Package|SAR|Configure Remote Servers]
+Applicable=No
+
+[Package|SAR|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\Search_and_Replace.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\comcat.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\itss.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\hh.exe=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TABCTL32.OCX=$(WinSysPath)
+C:\TreeView\ccrpftv6.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Comdlg32.ocx=$(WinSysPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\hlp\sar.chm=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\ext.dat=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\path.dat=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\repl.dat=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\srch.dat=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\custom.ini=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\favorites.dat=$(AppPath)
+
+[Package|SAR|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\Search_and_Replace.exe=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\hlp\sar.chm=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\ext.dat=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\path.dat=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\repl.dat=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\srch.dat=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\custom.ini=No
+C:\Documents and Settings\Administrator\Desktop\Search_and_Replace\favorites.dat=No
+
+[Package|SAR|Distribution]
+Type=single
+Size=
+Title=Search And Replace by Europeum.net
+
+[Package|SAR|IconGroups]
+Group0=Europeum.net
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SAR|Europeum.net]
+Icon1=Search_and_Replace.exe
+Title1=Search And Replace
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SAR|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\SAR_INSTALL
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\Search_and_Replace
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\SAR_INSTALL\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\SAR_INSTALL\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\SAR_INSTALL\Search_and_Replace.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
